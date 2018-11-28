@@ -2,8 +2,7 @@
 
   var userName = prompt('What is your nickname?');
 
-  var playGame = prompt('Ok, ' + userName + ', do you want to play a game now? Enter Y or N');
-  playGame = playGame.toLowerCase();
+  var playGame = prompt('Ok, ' + userName + ', do you want to play a game now? Enter Y or N').toLowerCase();
   console.log (playGame);
 
   if(playGame !== 'y') {
