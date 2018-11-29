@@ -1,34 +1,68 @@
 * {
   background-color: black
+  
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
   background-color: grey;
-  border-radius: 2px;
   text-align: center;
   color: white;
+  border: 1px solid white;
   padding: 20px;  
   font-style: italic;
   font-size: 48pt;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0%;
 
 }
+p {
+  color: white;
+}
 
-ul li {
+ul {
   background-color: grey;
   color: white;
   list-style-type: none;
-  margin: auto;
-  width: 1000px;
+  border: 1px solid white;
+  float: left;
+  width: 500px;
   padding: 10px;
   
-  
 }
-ol li {
+h2
+ {
+  font-size: 18pt;
+  color: white;
+  border: 1px solid white;
+  padding: 4px;
+  text-align: center;
+  margin: 0%;
+ }
+
+ h3 {
+   color: white;
+   background: none;
+   border: 1px solid white;
+   border-radius: 2px;
+   padding: 4px;
+   margin: 0%;
+   margin-bottom: 5px;
+ }
+ol {
   background-color: grey;
   color: white;
   list-style-type: none;
-  margin: auto;
-  width: 1000px;
+  border: 1px solid white;
+  width: 500px;
   padding: 10px;
+  float: left;
+  
+}
+
+li {
+  background: none;
+  margin: 1px;
+
 }

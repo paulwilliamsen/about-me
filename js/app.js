@@ -63,7 +63,7 @@ if (third === 'no' || third === 'n') {
   alert('Ok, I took a deep breath, some fresh air, had a drink of water. Let\'s continue');
 }
 
-var fourth = prompt('Was I older than the age of 14 when I first got a beard? ').toLowerCase();
+var fourth = prompt('Was I younger than the age of 14 when I first got a beard? ').toLowerCase();
 console.log('Answer to fourth question: ' + fourth);
 
 alert('Beards are still in right?');
@@ -75,7 +75,7 @@ if (fourth === 'y' || fourth === 'yes') {
   alert('Nope you are wrong. I was a youngster with a beard.');
 }
 
-var fifth = prompt('Will I be a succesful software developer by April?').toLowerCase();
+var fifth = prompt('Will I be a succesful junior software developer by April?').toLowerCase();
 console.log('Answer to fifth question: ' + fifth);
 
 
