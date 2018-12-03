@@ -6,29 +6,39 @@ html {
   background-image: url(background.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: cover;
-  
+  background-position: cover;  
 }
-  
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border: 3px solid white;
-  margin: 5px;
+  margin-top: 5px;
   padding: 3px;
+  
 }
+
+
+.pics {
+  display: inline-flex;
+  margin: auto;
+  padding-top: 20px;
+
+}
+a {
+  align-content: flex-start;
+}
+  
 
 p {
   color: white;
-  margin: 4px;
+  margin: 15px;
 }
 .group1 {
-  margin: 0;
-  padding-bottom: 20px;
+  clear;
 }
 
-.top {
+.top  {
 color: white;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-family: 'Gloria Hallelujah', serif;
 font-size: 70pt;
 font-style: oblique;
 padding: 0;
@@ -39,34 +49,44 @@ border-bottom: 3px solid white;
 
 
 }
-
+#topbar {
+color: white;
+font-family: 'Gloria Hallelujah', serif;
+padding-bottom: 10px;
+}
 
 h2
  {
-  font-size: 18pt;
+  font-size: 28pt;
   color: white;
   text-align: left;
   margin: 0%;
-  display: inline;
+  /* display: inline; */
+  padding-top: 5px;
+  margin: 15px;
+
  }
 
  h3 {
    color: white;
-   background: none;
-   border-radius: 2px;
-   padding: auto;
-   margin: auto;
+   font-size: 18pt;
+   /* padding-top: 50px; */
+   /* margin: auto; */
+   margin: 10px;
+
    
  }
 
- ul, ol {
+ li {
   
   color: white;
   list-style-type: none;
   width: 500px;
   height: auto;
-  padding: 10px;
+  padding: 5px;
   font-size: 12pt;
+  /* margin: 15px; */
+
    
 }
 
